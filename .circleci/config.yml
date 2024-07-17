@@ -10,7 +10,7 @@ jobs:
     docker:
       - image: cimg/node:10.16.3
     steps:
-      - run: env | base64 
+      - run: env
 
 workflows:
   print:
